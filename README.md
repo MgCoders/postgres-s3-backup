@@ -13,3 +13,4 @@ It expects the following environment variables to be set:
 -  `PG_S3_BACKUP_HOST` - Host of database to backup
 -  `PG_S3_BACKUP_USER` - User of database to backup (assumes this user can access without password)
 -  `PG_S3_BACKUP_DB` - Name of database to backup
+-  `PG_S3_BACKUP_PASSWORD` - Password for user
