@@ -1,6 +1,9 @@
 # postgres-s3-backup
 
-Dockerized cron job to backup a Postgres database to Amazon S3 every day at midnight.
+## based on https://github.com/draffensperger/postgres-s3-backup
+
+Dockerized cron job to backup a Postgres database to Amazon S3 every 12 hours.
+Works with Postgres 9.5
 
 It expects the following environment variables to be set:
 
